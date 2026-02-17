@@ -1,4 +1,4 @@
-package JavaPractice;
+package Lecture2;
 
 public class practice {
         public static void main(String[] args) {
