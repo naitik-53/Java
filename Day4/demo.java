@@ -1,9 +1,13 @@
-package Day4;
+import java.util.*;
 
 public class demo {
     public static void main(String[] args) {
-        float f = 8.123f;
+        List<String> tasks = new ArrayList<>();
+        tasks.add("Learn Java");
+        tasks.add("Build Project");
 
-        System.out.printf("%.20f%n", f);
+        for(String task : tasks) {
+            System.out.println(task);
+        }
     }
 }
